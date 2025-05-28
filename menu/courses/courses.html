@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,6 +6,7 @@
   <title>Explore Courses - Target JEE</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="courses.css">
+  <link rel="stylesheet" href="search.css">
 </head>
 <body>
   <header>
@@ -13,32 +14,36 @@
     <p>Unlock your potential with free, high-quality learning resources.</p>
   </header>
 
+  <!-- Search Tab -->
+  <div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search for courses..." onkeyup="searchCourses()">
+    <ul id="suggestions"></ul>
+  </div>
+
   <section class="courses-container">
     <div class="course-card">
       <h2>Mathematics</h2>
       <p>Learn algebra, geometry, calculus, and more.</p>
       <a href="lecturemaths.html" class="btn">Start Maths Lecture</a>
-
-
     </div>
 
     <div class="course-card">
       <h2>Science</h2>
       <p>Discover physics, chemistry, and biology with engaging lessons.</p>
-      <a href="lecturemaths.html" class="btn">Start Learning</a>
-
+      <a href="lecturescience.html" class="btn">Start Science Lecture</a>
     </div>
 
     <div class="course-card">
       <h2>English</h2>
       <p>Improve grammar, writing, and communication skills.</p>
-      <a href="lecturemaths.html" class="btn">Start Learning</a>
-
+      <a href="lectureenglish.html" class="btn">Start English Lecture</a>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 Free Course Hub | Learn, Grow, Succeed.
+    &copy; 2025 Target JEE | Learn, Grow, Succeed.
   </footer>
+
+  <script src="search.js"></script>
 </body>
 </html>
