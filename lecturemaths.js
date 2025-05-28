@@ -1,5 +1,5 @@
 let lectures = [
-  "https://www.youtube.com/embed/MXrjNCXcI3E?si=yseRS9quZTWrKjNb",
+  "https://www.youtube.com/embed/AlZzcg3RD0Y?si=8Y0JTD9LtBhuTUUt",
   "https://www.youtube.com/embed/example2",
   "https://www.youtube.com/embed/example3"
 ];
