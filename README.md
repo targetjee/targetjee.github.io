@@ -1,10 +1,8 @@
-# targetjee.github.io
-<!DOCTYPE html>
-<html lang="en">
+html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learn With Us - Free Education</title>
+  <title>Target JEE Resources HUB</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
@@ -15,103 +13,115 @@
     }
 
     body {
-      background-color: #f9f9f9;
+      background: linear-gradient(to right, #fceabb, #f8b500);
       color: #333;
       line-height: 1.6;
+      transition: background 0.4s ease;
     }
 
     header {
-      background: #4CAF50;
-      padding: 1.2rem 2rem;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      padding: 1.5rem 2rem;
       color: white;
       text-align: center;
-      transition: background 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
     }
 
     header:hover {
-      background: #45a049;
+      transform: scale(1.02);
     }
 
     .container {
-      max-width: 960px;
+      max-width: 1100px;
       margin: auto;
       padding: 2rem;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     }
 
     p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin-bottom: 1.5rem;
     }
 
     .btn {
       display: inline-block;
-      padding: 0.7rem 1.4rem;
-      background: #4CAF50;
+      padding: 0.8rem 1.6rem;
+      background: #ff6f61;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s ease, transform 0.2s ease;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.3s ease;
     }
 
     .btn:hover {
-      background: #45a049;
-      transform: translateY(-2px);
+      background: #ff3d2e;
+      transform: translateY(-3px);
     }
 
     .section {
       background: white;
       padding: 2rem;
-      margin-top: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      transition: transform 0.3s ease;
+      margin-top: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
 
     .section:hover {
-      transform: translateY(-4px);
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .section h2 {
+      color: #0072ff;
+      margin-bottom: 0.5rem;
     }
 
     footer {
       text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #777;
+      padding: 1.5rem;
+      font-size: 0.95rem;
+      background: #333;
+      color: #eee;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Learn With Us</h1>
-    <p>Free Educational Resources for Everyone</p>
+    <h1>Target JEE</h1>
+    <p>by DEBADITYA ACHARYA</p>
   </header>
 
   <div class="container">
     <div class="section">
       <h2>Welcome!</h2>
-      <p>This platform offers free videos, notes, and resources for students of all ages. Our mission is to make quality education accessible to everyone.</p>
-      <a href="#videos" class="btn">Explore Videos</a>
+      <p>Our mission is to provide free, high-quality educational videos and notes to every child who needs them. Join us on this journey to make education accessible for all.</p>
+      <a href="#videos" class="btn">Start Learning</a>
     </div>
 
     <div class="section">
-      <h2>Subjects Covered</h2>
-      <p>We currently offer resources in Mathematics, Science, English, and more! New content is added regularly.</p>
-      <a href="#notes" class="btn">View Notes</a>
+      <h2>Subjects Offered</h2>
+      <p>We cover a wide range of topics including Math, Science, English, and Life Skills. More subjects are coming soon!</p>
+      <a href="#notes" class="btn">View Resources</a>
     </div>
 
     <div class="section">
-      <h2>Support This Mission</h2>
-      <p>If you'd like to contribute or collaborate, feel free to reach out. Together, we can build a brighter future through education.</p>
-      <a href="#contact" class="btn">Contact Us</a>
+      <h2>Join Our Cause</h2>
+      <p>Interested in contributing content or supporting the mission? Reach out to us and become part of this educational movement.</p>
+      <a href="#contact" class="btn">Get Involved</a>
     </div>
   </div>
 
   <footer>
-    &copy; 2025 Learn With Us. Built for free learning and empowerment.
+    &copy; 2025 Learn With Us | Built with purpose and passion for free education.
   </footer>
 </body>
 </html>
