@@ -1,127 +1,127 @@
-html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Target JEE Resources HUB</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-
-    body {
-      background: linear-gradient(to right, #fceabb, #f8b500);
-      color: #333;
-      line-height: 1.6;
-      transition: background 0.4s ease;
-    }
-
-    header {
-      background: linear-gradient(to right, #00c6ff, #0072ff);
-      padding: 1.5rem 2rem;
-      color: white;
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-    }
-
-    header:hover {
-      transform: scale(1.02);
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 2rem;
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    }
-
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 0.8rem 1.6rem;
-      background: #ff6f61;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: background 0.3s ease, transform 0.3s ease;
-    }
-
-    .btn:hover {
-      background: #ff3d2e;
-      transform: translateY(-3px);
-    }
-
-    .section {
-      background: white;
-      padding: 2rem;
-      margin-top: 1.5rem;
-      border-radius: 16px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-    }
-
-    .section:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    }
-
-    .section h2 {
-      color: #0072ff;
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 0.95rem;
-      background: #333;
-      color: #eee;
-      margin-top: 2rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Course Hub - Learn Anywhere</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Target JEE</h1>
-    <p>by DEBADITYA ACHARYA</p>
+    <h1>Free Course Hub</h1>
+    <p>Empowering learners with free, high-quality education.</p>
+    <a href="#courses" class="btn">Start Learning</a>
   </header>
 
-  <div class="container">
+  <section class="container">
     <div class="section">
-      <h2>Welcome!</h2>
-      <p>Our mission is to provide free, high-quality educational videos and notes to every child who needs them. Join us on this journey to make education accessible for all.</p>
-      <a href="#videos" class="btn">Start Learning</a>
+      <h2>About Us</h2>
+      <p>We provide free educational videos across various subjects to help students excel.</p>
+      <a href="#about" class="btn">Learn More</a>
     </div>
 
     <div class="section">
-      <h2>Subjects Offered</h2>
-      <p>We cover a wide range of topics including Math, Science, English, and Life Skills. More subjects are coming soon!</p>
-      <a href="#notes" class="btn">View Resources</a>
+      <h2>Available Courses</h2>
+      <p>Explore lessons in Mathematics, Science, English, and more.</p>
+      <a href="#courses" class="btn">View Courses</a>
     </div>
 
     <div class="section">
-      <h2>Join Our Cause</h2>
-      <p>Interested in contributing content or supporting the mission? Reach out to us and become part of this educational movement.</p>
+      <h2>Join Us</h2>
+      <p>Want to contribute or support our cause? Be a part of the learning movement.</p>
       <a href="#contact" class="btn">Get Involved</a>
     </div>
-  </div>
+  </section>
 
   <footer>
-    &copy; 2025 Learn With Us | Built with purpose and passion for free education.
+    &copy; 2025 Free Course Hub | Learn without limits.
   </footer>
 </body>
 </html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  padding: 2rem;
+  color: white;
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #ff6f61;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn:hover {
+  background: #e63946;
+  transform: translateY(-5px);
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  background: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  flex: 1;
+  min-width: 300px;
+}
+
+.section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  .container { flex-direction: column; }
+}
