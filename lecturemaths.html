@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture Player - Free Course Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lecture.css">
+</head>
+<body>
+  <header>
+    <h1>Course Lectures</h1>
+    <p>Learn at your own pace with free educational videos.</p>
+  </header>
+
+  <div class="lecture-container">
+    <!-- Dropdown Menu for Selecting a Lecture -->
+    <select id="lectureMenu" onchange="changeLecture()">
+      <option value="https://www.youtube.com/embed/example1">Lecture 1: Introduction</option>
+      <option value="https://www.youtube.com/embed/example2">Lecture 2: Advanced Topics</option>
+      <option value="https://www.youtube.com/embed/example3">Lecture 3: Final Concepts</option>
+    </select>
+
+    <!-- Embedded YouTube Video -->
+    <iframe id="lectureVideo" src="https://www.youtube.com/embed/example1" allowfullscreen></iframe>
+
+    <!-- Navigation Buttons -->
+    <div class="buttons">
+      <button onclick="prevLecture()">Previous Lecture</button>
+      <button onclick="nextLecture()">Next Lecture</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Free Course Hub | Keep Learning, Keep Growing.
+  </footer>
+
+  <script src="lecture.js"></script>
+</body>
+</html>
